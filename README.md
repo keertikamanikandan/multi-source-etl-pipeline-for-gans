@@ -32,14 +32,14 @@ This project solves the problem:
 
 ```
 Data Sources (APIs + Wikipedia + Internal Data)
-                  ↓
-        Extract (Python scripts)
-                  ↓
-  Transform (Pandas cleaning & processing)
-                  ↓
-    Load (MySQL relational database)
-                  ↓
-     Analytics / Query-ready data
+         ↓
+Extract (Python scripts)
+         ↓
+Transform (Pandas cleaning & processing)
+         ↓
+Load (MySQL relational database)
+         ↓
+Analytics / Query-ready data
 ```
 ---
 
