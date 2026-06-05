@@ -12,44 +12,61 @@ The pipeline collects data from cities, population statistics, weather APIs, air
 
 This pipeline integrates multiple datasets to build a unified city-level database.
 
-### 🏙️ City Data
-- Source: Internal dataset
-- Data Collected:
+### 🏙️ Cities Data
+- **Source:** Internal dataset
+- **Data Collected:**
   - City names
-  - Basic city metadata
+  - Country information
+  - Latitude and longitude
+
+---
 
 ### 👥 Population Data
-- Source: Wikipedia
-- Data Collected:
-  - City population statistics
+- **Source:** Wikipedia
+- **Data Collected:**
+  - Population values
+  - Area information
+  - Timestamp/year of data
+
+---
 
 ### 🌤️ Weather Data
-- Source: OpenWeather API
-- Data Collected:
+- **Source:** OpenWeather API
+- **Data Collected:**
   - Temperature
+  - Feels-like temperature
   - Weather conditions
   - Humidity
   - Wind speed
+  - Rain information
 
-### ✈️ Airport Data
-- Source: AeroDataBox API
-- Data Collected:
-  - Airport name and code
+---
+
+### ✈️ Airports Data
+- **Source:** AeroDataBox API
+- **Data Collected:**
+  - ICAO and IATA codes
+  - Airport name
   - Geographic coordinates
-  - Location details
 
-### 🔗 Airport-City Mapping (cities_airport)
-- Source: Derived dataset
-- Data Collected:
+---
+
+### 🔗 Cities-Airports Mapping (cities_airports)
+- **Source:** Derived dataset
+- **Data Collected:**
   - Relationship between cities and airports
-  - Foreign key mapping for relational joins
+  - Foreign key mapping (city_id ↔ ICAO)
 
-### 🛫 Flight Data
-- Source: AeroDataBox API
-- Data Collected:
-  - Flight arrivals
-  - Scheduled arrival times
-  - Flight status (if available)
+---
+
+### 🛫 Flights Data
+- **Source:** AeroDataBox API
+- **Data Collected:**
+  - Flight numbers
+  - Scheduled arrival time
+  - Updated arrival time
+  - Departure airport
+  - ICAO reference
 
 ---
 
