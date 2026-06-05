@@ -126,7 +126,7 @@ These tables are connected using relational keys to ensure proper data integrati
 ## 🔗 Project Files
 
 ### 🗄️ SQL Script
-- [Database Schema (SQL)](Cities_db.sql)
+- [Database Schema (SQL)]([Cities_db.sql](https://github.com/keertikamanikandan/multi-source-etl-pipeline-for-gans/blob/main/jupyter%20notebook/gans_final.ipynb))
 
 ### 📓 Jupyter Notebook
 - [ETL Pipeline Notebook](gans_final.ipynb)
