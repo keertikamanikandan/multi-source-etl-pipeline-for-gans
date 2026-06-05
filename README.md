@@ -110,7 +110,7 @@ The following diagram illustrates the relational database design used in this pr
 
 ![Database Schema](screenshot/database.png)
 
-### Main Tables (in order)
+### Main Tables (in order of data flow)
 
 - city
 - population
@@ -126,10 +126,10 @@ These tables are connected using relational keys to ensure proper data integrati
 ## 🔗 Project Files
 
 ### 🗄️ SQL Script
-- [Cities Database Schema](SQL/Cities_db.sql)
+- [Database Schema (SQL)](SQL/Cities_db.sql)
 
 ### 📓 Jupyter Notebook
-- [ETL Pipeline Notebook](gans_final.ipynb)
+- [ETL Pipeline Notebook](jupyter_notebook/gans_final.ipynb)
 
 ---
 
@@ -195,4 +195,4 @@ Overall, this pipeline serves as a strong foundation for scalable data integrati
 **Keertika Manikandan**
 
 - GitHub: https://github.com/keertikamanikandan
-- LinkedIn: https://www.linkedin.com/in/keertika-palaniappan
+- LinkedIn: https://linkedin.com/in/keertika-palaniappan
